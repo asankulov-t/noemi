@@ -11,8 +11,7 @@ sup{
     width: 1200px;
     margin: 0 auto;
 }
-.nav-container{
-}
+
 .logo{
     width: 186px;
 }
@@ -29,7 +28,7 @@ a{
     text-decoration: white;
     color: white;
 }
-ul{
+.ul-nav-links{
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -79,8 +78,15 @@ li{
     margin-left: 30px;
     margin-right: 50px;
 }
+.tag-links{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.tag-links li{
+    margin: 0;
 
-
+}
 .key-words{
     color: rgb( 181, 159, 91 );
     text-transform: uppercase;
@@ -97,6 +103,10 @@ li{
     font-weight: 700;
     text-transform: uppercase;
     margin: 8px 0px;
+}
+.title-des a{
+    color: black;
+    text-decoration: none;
 }
 .datas{
     margin-top: 32px;
@@ -119,7 +129,6 @@ li{
     color:black;
 }
 .aside{
-    width: 476px;
 }
 
 
@@ -162,6 +171,10 @@ hr{
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
+}
+.post-title a{
+    color: black;
+    text-decoration: none;
 }
 .search-block{
     display: flex;
