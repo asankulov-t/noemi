@@ -5,7 +5,9 @@ body{
 sup{
     font-weight: 700;
     color: rgb( 181, 159, 91 );
-
+}
+a:hover{
+    color: #090841;
 }
 .container{
     width: 1200px;
@@ -26,12 +28,14 @@ sup{
 
 a{
     text-decoration: white;
-    color: white;
 }
 .ul-nav-links{
     margin: 0;
     display: flex;
     justify-content: space-between;
+}
+.ul-nav-links a{
+    color: #ffffff;
 }
 li{
     text-transform: uppercase;
@@ -182,6 +186,10 @@ hr{
     margin-top: 60px;
 
 }
+.form-for-search{
+    display: flex;
+    width: 100%;
+}
 .search-block img{
     width: 20px;
     height: 20px;
@@ -211,7 +219,7 @@ input{
 }
 .email-input{
     margin-top: 25px;
-    width: 270px;
+    width: 336px;
 }
 .fallow-btn{
     width: 100%;
@@ -224,16 +232,21 @@ input{
 .tags{
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+}
+.tags li{
+    margin-left: 0;
+    border: 3px solid #d9d9d9;
+    padding: 7px 16px;
+    font-weight: 700;
+    margin-right: 8px;
+    margin-top: 5px;
 }
 .tags a{
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: 700;
-    margin-right: 8px;
-    margin-top: 5px;
     color: black;
-    border: 3px solid #d9d9d9;
-    padding: 7px 16px;
+
 }
 
 .thems ul{
@@ -262,7 +275,8 @@ input{
     position: relative;
     z-index: 50;
     background-color: #f3eeee;
-    height: 60px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     top: 500px;
     display: flex;
     align-items: center;
@@ -271,7 +285,15 @@ input{
 .icons{
     margin: 0 auto;
 }
+.icons ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.icons ul:first-child{
+    margin-right: 0;
+}
 .icons img{
     width: 20px;
-    margin-right: 30px;
+    margin-right: 20px;
 }
